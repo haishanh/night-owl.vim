@@ -1,0 +1,33 @@
+white: '#d6deeb'
+bright: '#eeeeee'
+dark: '#011627'
+# jsStorageClass
+# jsOperator
+# jsArrowFunction
+purple: '#c792ea'
+# jsGlobalNodeObjects
+green: '#addb67'
+# jsString
+yellow: '#ecc48d'
+# jsComment(italic)
+gray: '#637777'
+# jsFuncCall
+blue: '#82aaff'
+# hi jsNumber guifg=#f78c6c
+# hi jsSpecial guifg=#f78c6c
+yellow2: '#f78c6c'
+# hi jsObjectProp guifg=#7fdbca
+# hi jsOperatorKeyword guifg=#7fdbca
+green2: '#7fdbca'
+# hi jsBooleanFalse guifg=#ff5874
+# hi jsBooleanTrue guifg=#ff5874
+red: '#ff5874'
+# hi jsRegexpString guifg=#5ca7e4
+blue2: '#5ca7e4'
+
+gray1: '#111111'
+gray2: '#222222'
+gray4: '#444444'
+gray7: '#777777'
+purple2: '#2d2c5d'
+hoki: '#5f7e97'

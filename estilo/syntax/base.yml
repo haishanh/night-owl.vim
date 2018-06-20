@@ -1,0 +1,156 @@
+# run this in vim
+# :help group-name
+#
+# BASE UI
+Normal: 'white dark'
+LineNr: 'gray4 dark'
+# the screen line that the cursor is in when 'cursorline' is set
+CursorLine: 'red dark'
+ColorColumn: '. gray2'
+Cursor: ''
+Conceal: ''
+CursorIM: ''
+CursorColumn: ''
+Directory: ''
+DiffAdd: ''
+DiffChange: ''
+DiffDelete: ''
+DiffText: ''
+ErrorMsg: ''
+VertSplit: 'gray7 .'
+Folded: 'gray7 dark'
+FoldColumn: ''
+SignColumn: ''
+IncSearch: 'bright yellow'
+MatchParen: 'white dark'
+ModeMsg: ''
+MoreMsg: ''
+NonText: ''
+PMenu: '. purple2'
+PMenuSel: '. purple'
+PmenuSbar: ''
+PmenuThumb: ''
+Question: ''
+Search: 'bright yellow'
+SpecialKey: ''
+SpellBad: ''
+SpellLocal: ''
+SpellCap: ''
+SpellRare: ''
+StatusLine: ''
+StatusLineNC: ''
+TabLine: ''
+TabLineFill: ''
+TabLineSel: ''
+Title: ''
+Visual: 'white purple2'
+VisualNOS: ''
+WarningMsg: ''
+WildMenu: ''
+EndOfBuffer: 'gray4 dark'
+# BASE SYNTAX
+Comment: 'gray dark i'
+Constant: 'green dark'
+String: 'yellow dark'
+Character: '' # Constant
+Boolean: '' # Constant
+Number: '' # Constant
+Float: '' # Constant
+Identifier: 'green2 .'
+Function: '' # Identifier
+Statement: 'blue .'
+Conditional: '' # Statement
+Repeat: '' # Statement
+Label: '' # Statement
+Operator: 'purple .' # Statement
+Keyword: '' # Statement
+Exception: 'green .' # Statement
+PreProc: 'purple .'
+Include: '' # PreProc
+Define: '' # PreProc
+Macro: '' # PreProc
+PreCondit: '' # PreProc
+Type: 'green .'
+StorageClass: 'purple .' # Type
+Structure: '' # Type
+Typedef: '' # Type
+Special: ''
+SpecialChar: '' # Special
+Tag: '' # Special
+Delimiter: '' # Special
+SpecialComment: '' # Special
+Debug: '' # Special
+Underlined: ''
+Ignore: ''
+Error: ''
+Todo: 'gray7 yellow'
+
+# Javascript - pangloss/vim-javascript
+jsStorageClass: 'purple dark'
+jsOperator: 'purple dark'
+jsArrowFunction: 'purple dark'
+# jsGlobalNodeObjects: 'green dark'
+jsString: 'yellow dark'
+jsComment: 'gray dark i'
+jsFuncCall: 'blue dark'
+jsNumber: 'yellow2 dark'
+jsSpecial: 'yellow2 dark'
+jsObjectProp: 'green2 dark'
+jsOperatorKeyword: 'green2 dark'
+jsBooleanFalse: 'red dark'
+jsBooleanTrue: 'red dark'
+jsRegexpString: 'blue2 dark'
+jsConditional: 'purple .'
+jsFunction: 'blue .'
+jsReturn: 'purple .'
+jsFuncName: 'blue .'
+
+javaScriptReserved: 'blue .'
+javaScriptConditional: 'purple .'
+javaScriptStringS: 'yellow .'
+javaScriptBoolean: 'red .'
+javaScriptBraces: 'white .'
+javaScriptLineComment: 'gray . i'
+javaScriptSpecial: 'yellow2 .'
+javaScriptFunction: 'blue .'
+javaScriptStatement: 'purple .'
+jsExtendsKeyword: 'purple .'
+# catch
+javaScriptException: 'green .'
+
+##### CSS and Sass
+scssSelectorName: 'green .'
+cssPositioningProp: 'green2 .'
+cssBoxProp: 'green2 .'
+cssDimensionProp: 'green2 .'
+cssTransitionProp: 'green2 .'
+cssTextProp: 'green2 .'
+cssFontProp: 'green2 .'
+cssBorderProp: 'green2 .'
+cssBackgroundProp: 'green2 .'
+# box-sizing
+cssUIProp: 'green2 .'
+# filter
+cssIEUIProp: 'red .'
+scssFunctionName: 'green .'
+cssPositioningAttr: 'red .'
+cssUnitDecorators: 'yellow .'
+cssTableAttr: 'red .'
+cssCommonAttr: 'red .'
+cssColorProp: 'green2 .'
+cssIncludeKeyword: 'green2 .'
+cssKeyFrameSelector: 'green .'
+cssPseudoClassId: 'green .'
+
+##### markdown
+htmlH2: 'blue .'
+mkdCodeStart: 'white .'
+mkdCodeEnd: 'white .'
+shComment: 'gray dark i'
+mkdLinkDef: 'green2 .'
+
+
+##### nerd tree
+NERDTreeDir: 'hoki .'
+NERDTreeOpenable: 'red .'
+NERDTreeClosable: 'yellow .'

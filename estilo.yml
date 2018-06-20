@@ -1,0 +1,10 @@
+name: 'night-owl.vim'
+version: '0.0.1'
+license: 'MIT'
+author: 'Haishan'
+url: 'https://github.com/haishanh/night-owl.vim'
+description: 'A dark theme based on https://github.com/sdras/night-owl-vscode-theme'
+colorschemes:
+  - name: night-owl
+    background: 'dark'
+    palette: night-owl.vim
