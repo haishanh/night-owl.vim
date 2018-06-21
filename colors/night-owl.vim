@@ -4,7 +4,7 @@
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
 " License: MIT
-" Last Change: 2018/06/21 23:31
+" Last Change: 2018/06/21 23:38
 " ===============================================================
 
 set background=dark
@@ -102,6 +102,9 @@ hi mkdLinkDef guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi NERDTreeDir guifg=#5f7e97 ctermfg=66 gui=NONE cterm=NONE
 hi NERDTreeOpenable guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi NERDTreeClosable guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
+hi NERDTreeHelp guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=italic cterm=italic
+hi NERDTreeUp guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi NERDTreeDirSlash guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
 
 
 " ===================================
