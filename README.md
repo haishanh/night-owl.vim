@@ -1,4 +1,8 @@
-A 24bit dark Vim colorsccheme based on [sdras/night-owl-vscode-theme](https://github.com/sdras/night-owl-vscode-theme)
+<p align="center">
+  <img width="860" alt="Night Owl Vim colorscheme screenshot" src="https://user-images.githubusercontent.com/1166872/41726735-6370a63a-75a5-11e8-8e3f-5bf87c67b22a.png">
+</p>
+
+A 24bit dark Vim colorscheme based on [sdras/night-owl-vscode-theme](https://github.com/sdras/night-owl-vscode-theme)
 
 ## Usage
 
