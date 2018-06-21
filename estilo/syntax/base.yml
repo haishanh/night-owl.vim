@@ -143,12 +143,19 @@ cssKeyFrameSelector: 'green .'
 cssPseudoClassId: 'green .'
 
 ##### markdown
-htmlH2: 'blue .'
+markdownHeadingDelimiter: 'gray .'
+markdownCodeDelimiter: 'yellow .'
+markdownCode: 'graya .'
+htmlH1: 'blue . b'
+htmlH2: '@htmlH1'
+htmlH3: '@htmlH1'
+htmlH4: 'blue .'
+htmlH5: '@htmlH4'
+htmlBold: 'purple dark b'
 mkdCodeStart: 'white .'
 mkdCodeEnd: 'white .'
 shComment: 'gray dark i'
 mkdLinkDef: 'green2 .'
-
 
 ##### nerd tree
 NERDTreeDir: 'hoki .'
