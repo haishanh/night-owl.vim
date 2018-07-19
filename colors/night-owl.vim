@@ -4,7 +4,7 @@
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
 " License: MIT
-" Last Change: 2018/06/26 17:10
+" Last Change: 2018/07/19 23:47
 " ===============================================================
 
 set background=dark
@@ -21,7 +21,7 @@ hi ColorColumn guibg=#222222 ctermbg=235 gui=NONE cterm=NONE
 hi VertSplit guifg=#777777 ctermfg=243 gui=NONE cterm=NONE
 hi Folded guifg=#777777 ctermfg=243 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi IncSearch guifg=#eeeeee ctermfg=255 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
-hi MatchParen guifg=#d6deeb ctermfg=253 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi MatchParen guifg=#011627 ctermfg=233 guibg=#aaaaaa ctermbg=248 gui=NONE cterm=NONE
 hi PMenu guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE
 hi PMenuSel guibg=#c792ea ctermbg=176 gui=NONE cterm=NONE
 hi Search guifg=#011627 ctermfg=233 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
@@ -55,6 +55,7 @@ hi jsConditional guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsFunction guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi jsReturn guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsFuncName guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
+hi link jsParensError jsFuncParens
 hi javaScriptReserved guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi javaScriptConditional guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi javaScriptStringS guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
@@ -105,6 +106,9 @@ hi NERDTreeClosable guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi NERDTreeHelp guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=italic cterm=italic
 hi NERDTreeUp guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi NERDTreeDirSlash guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
+hi gitcommitSummary guifg=#d6deeb ctermfg=253 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi IndentGuidesOdd guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
+hi IndentGuidesEven guibg=#777777 ctermbg=243 gui=NONE cterm=NONE
 
 
 " ===================================

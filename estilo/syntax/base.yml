@@ -22,7 +22,7 @@ Folded: 'gray7 dark'
 FoldColumn: ''
 SignColumn: ''
 IncSearch: 'bright yellow'
-MatchParen: 'white dark'
+MatchParen: 'dark graya'
 ModeMsg: ''
 MoreMsg: ''
 NonText: ''
@@ -104,6 +104,7 @@ jsConditional: 'purple .'
 jsFunction: 'blue .'
 jsReturn: 'purple .'
 jsFuncName: 'blue .'
+jsParensError: '@jsFuncParens'
 
 javaScriptReserved: 'blue .'
 javaScriptConditional: 'purple .'
@@ -164,3 +165,11 @@ NERDTreeClosable: 'yellow .'
 NERDTreeHelp: 'gray4 dark i'
 NERDTreeUp: 'gray dark'
 NERDTreeDirSlash: 'gray .'
+
+##### git
+gitcommitSummary: 'white dark'
+
+##### indent guide
+# https://github.com/nathanaelkane/vim-indent-guides
+IndentGuidesOdd: '. gray4'
+IndentGuidesEven: '. gray7'
