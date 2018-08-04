@@ -4,7 +4,7 @@
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
 " License: MIT
-" Last Change: 2018/07/19 23:47
+" Last Change: 2018/08/04 10:39
 " ===============================================================
 
 set background=dark
@@ -22,9 +22,11 @@ hi VertSplit guifg=#777777 ctermfg=243 gui=NONE cterm=NONE
 hi Folded guifg=#777777 ctermfg=243 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi IncSearch guifg=#eeeeee ctermfg=255 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
 hi MatchParen guifg=#011627 ctermfg=233 guibg=#aaaaaa ctermbg=248 gui=NONE cterm=NONE
+hi NonText guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi PMenu guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE
 hi PMenuSel guibg=#c792ea ctermbg=176 gui=NONE cterm=NONE
 hi Search guifg=#011627 ctermfg=233 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
+hi SpecialKey guifg=#444444 ctermfg=238 gui=NONE cterm=NONE
 hi Visual guifg=#d6deeb ctermfg=253 guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi Comment guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=italic cterm=italic
