@@ -4,7 +4,7 @@
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
 " License: MIT
-" Last Change: 2018/07/19 23:47
+" Last Change: 2018/08/04 10:37
 " ===============================================================
 
 set background=dark
@@ -18,6 +18,10 @@ hi Normal guifg=#d6deeb ctermfg=253 guibg=#011627 ctermbg=233 gui=NONE cterm=NON
 hi LineNr guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi CursorLine guifg=#ff5874 ctermfg=204 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi ColorColumn guibg=#222222 ctermbg=235 gui=NONE cterm=NONE
+hi DiffAdd guifg=#011627 ctermfg=233 guibg=#addb67 ctermbg=149 gui=NONE cterm=NONE
+hi DiffChange guifg=#011627 ctermfg=233 guibg=#7fdbca ctermbg=116 gui=NONE cterm=NONE
+hi DiffDelete guifg=#011627 ctermfg=233 guibg=#ff5874 ctermbg=204 gui=NONE cterm=NONE
+hi DiffText guifg=#011627 ctermfg=233 guibg=#7fdbca ctermbg=116 gui=NONE cterm=NONE
 hi VertSplit guifg=#777777 ctermfg=243 gui=NONE cterm=NONE
 hi Folded guifg=#777777 ctermfg=243 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi IncSearch guifg=#eeeeee ctermfg=255 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
