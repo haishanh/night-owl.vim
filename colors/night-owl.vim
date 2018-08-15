@@ -1,6 +1,6 @@
 " ===============================================================
 " night-owl
-" 
+"
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
 " License: MIT
@@ -16,6 +16,7 @@ let g:colors_name="night-owl"
 
 hi Normal guifg=#d6deeb ctermfg=253 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi LineNr guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi SignColumn guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi CursorLine guifg=#ff5874 ctermfg=204 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi ColorColumn guibg=#222222 ctermbg=235 gui=NONE cterm=NONE
 hi DiffAdd guifg=#011627 ctermfg=233 guibg=#addb67 ctermbg=149 gui=NONE cterm=NONE
