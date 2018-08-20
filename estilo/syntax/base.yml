@@ -86,7 +86,7 @@ Error: ''
 Todo: 'gray7 yellow'
 
 # Javascript - pangloss/vim-javascript
-jsStorageClass: 'purple dark'
+jsStorageClass: 'blue dark'
 jsOperator: 'purple dark'
 jsArrowFunction: 'purple dark'
 # jsGlobalNodeObjects: 'green dark'
@@ -105,6 +105,9 @@ jsFunction: 'blue .'
 jsReturn: 'purple .'
 jsFuncName: 'blue .'
 jsParensError: '@jsFuncParens'
+jsClassDefinition: 'yellow .'
+jsExport: 'green2 .'
+jsExportDefault: 'green2 .'
 
 javaScriptReserved: 'blue .'
 javaScriptConditional: 'purple .'
