@@ -4,7 +4,7 @@
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
 " License: MIT
-" Last Change: 2018/08/20 21:49
+" Last Change: 2018/09/03 23:51
 " ===============================================================
 
 set background=dark
@@ -63,8 +63,11 @@ hi jsReturn guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsFuncName guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi link jsParensError jsFuncParens
 hi jsClassDefinition guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
+hi jsImport guifg=#c792ea ctermfg=176 gui=italic cterm=italic
+hi jsFrom guifg=#c792ea ctermfg=176 gui=italic cterm=italic
 hi jsExport guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi jsExportDefault guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
+hi jsExtendsKeyword guifg=#c792ea ctermfg=176 gui=italic cterm=italic
 hi javaScriptReserved guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi javaScriptConditional guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi javaScriptStringS guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
@@ -74,9 +77,12 @@ hi javaScriptLineComment guifg=#637777 ctermfg=243 gui=italic cterm=italic
 hi javaScriptSpecial guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
 hi javaScriptFunction guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi javaScriptStatement guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
-hi jsExtendsKeyword guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi javaScriptException guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi scssSelectorName guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
+hi cssTagName guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
+hi cssClassName guifg=#addb67 ctermfg=149 gui=italic cterm=italic
+hi link cssClassNameDot cssClassName
+hi cssBraces guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
 hi cssPositioningProp guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi cssBoxProp guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi cssDimensionProp guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
@@ -89,13 +95,16 @@ hi cssUIProp guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi cssIEUIProp guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi scssFunctionName guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi cssPositioningAttr guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
-hi cssUnitDecorators guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi cssTableAttr guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi cssCommonAttr guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi cssColorProp guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi cssIncludeKeyword guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi cssKeyFrameSelector guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
-hi cssPseudoClassId guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
+hi cssPseudoClassId guifg=#addb67 ctermfg=149 gui=italic cterm=italic
+hi cssBorderAttr guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
+hi cssValueLength guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
+hi cssUnitDecorators guifg=#fbec9f ctermfg=229 gui=NONE cterm=NONE
+hi cssIdentifier guifg=#f4d554 ctermfg=221 gui=italic cterm=italic
 hi markdownHeadingDelimiter guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
 hi markdownCodeDelimiter guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi markdownCode guifg=#aaaaaa ctermfg=248 gui=NONE cterm=NONE

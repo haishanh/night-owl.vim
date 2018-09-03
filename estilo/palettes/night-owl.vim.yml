@@ -16,6 +16,8 @@ blue: '#82aaff'
 # hi jsNumber guifg=#f78c6c
 # hi jsSpecial guifg=#f78c6c
 yellow2: '#f78c6c'
+yellow3: '#fbec9f'
+yellow4: '#f4d554'
 # hi jsObjectProp guifg=#7fdbca
 # hi jsOperatorKeyword guifg=#7fdbca
 green2: '#7fdbca'
