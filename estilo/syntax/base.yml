@@ -5,7 +5,8 @@
 Normal: 'white dark'
 LineNr: 'gray4 dark'
 # the screen line that the cursor is in when 'cursorline' is set
-CursorLine: 'red dark'
+CursorLine: '. dark'
+CursorLineNr: 'graya dark'
 ColorColumn: '. gray2'
 Cursor: ''
 Conceal: ''
