@@ -4,7 +4,7 @@
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
 " License: MIT
-" Last Change: 2018/12/17 22:36
+" Last Change: 2019/01/15 21:49
 " ===============================================================
 
 set background=dark
@@ -110,16 +110,17 @@ hi cssIdentifier guifg=#f4d554 ctermfg=221 gui=italic cterm=italic
 hi markdownHeadingDelimiter guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
 hi markdownCodeDelimiter guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi markdownCode guifg=#aaaaaa ctermfg=248 gui=NONE cterm=NONE
+hi mkdCodeStart guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
+hi mkdCodeEnd guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
+hi mkdLinkDef guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
+hi mkdCodeDelimiter guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi htmlH1 guifg=#82aaff ctermfg=111 gui=bold cterm=bold
 hi link htmlH2 htmlH1
 hi link htmlH3 htmlH1
 hi htmlH4 guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi link htmlH5 htmlH4
 hi htmlBold guifg=#c792ea ctermfg=176 guibg=#011627 ctermbg=233 gui=bold cterm=bold
-hi mkdCodeStart guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
-hi mkdCodeEnd guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
 hi shComment guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=italic cterm=italic
-hi mkdLinkDef guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi NERDTreeDir guifg=#5f7e97 ctermfg=66 gui=NONE cterm=NONE
 hi NERDTreeOpenable guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi NERDTreeClosable guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
