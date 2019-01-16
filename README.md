@@ -31,3 +31,7 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 syntax enable
 colorscheme night-owl
 ```
+
+## Links
+
+- [24bit(true color) in terminal](https://gist.github.com/XVilka/8346728)
