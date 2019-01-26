@@ -4,7 +4,7 @@
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
 " License: MIT
-" Last Change: 2019/01/16 21:34
+" Last Change: 2019/01/26 13:46
 " ===============================================================
 
 set background=dark
@@ -68,6 +68,7 @@ hi link jsParensError jsFuncParens
 hi jsClassDefinition guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi jsImport guifg=#c792ea ctermfg=176 gui=italic cterm=italic
 hi jsFrom guifg=#c792ea ctermfg=176 gui=italic cterm=italic
+hi jsModuleAs guifg=#c792ea ctermfg=176 gui=italic cterm=italic
 hi jsExport guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi jsExportDefault guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi jsExtendsKeyword guifg=#c792ea ctermfg=176 gui=italic cterm=italic
