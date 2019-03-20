@@ -4,7 +4,7 @@
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
 " License: MIT
-" Last Change: 2019/01/26 13:46
+" Last Change: 2019/03/20 21:10
 " ===============================================================
 
 set background=dark
@@ -36,9 +36,9 @@ hi SpecialKey guifg=#444444 ctermfg=238 gui=NONE cterm=NONE
 hi Title guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
 hi Visual guifg=#d6deeb ctermfg=253 guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi Comment guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=italic cterm=italic
-hi Constant guifg=#addb67 ctermfg=149 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi String guifg=#ecc48d ctermfg=222 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi Comment guifg=#637777 ctermfg=243 gui=italic cterm=italic
+hi Constant guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
+hi String guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi Identifier guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi Statement guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi Operator guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
@@ -47,19 +47,19 @@ hi PreProc guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi Type guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi StorageClass guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi Todo guifg=#777777 ctermfg=243 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
-hi jsStorageClass guifg=#82aaff ctermfg=111 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi jsOperator guifg=#c792ea ctermfg=176 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi jsArrowFunction guifg=#c792ea ctermfg=176 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi jsString guifg=#ecc48d ctermfg=222 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi jsComment guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=italic cterm=italic
-hi jsFuncCall guifg=#82aaff ctermfg=111 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi jsNumber guifg=#f78c6c ctermfg=209 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi jsSpecial guifg=#f78c6c ctermfg=209 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi jsObjectProp guifg=#7fdbca ctermfg=116 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi jsOperatorKeyword guifg=#7fdbca ctermfg=116 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi jsBooleanFalse guifg=#ff5874 ctermfg=204 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi jsBooleanTrue guifg=#ff5874 ctermfg=204 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi jsRegexpString guifg=#5ca7e4 ctermfg=74 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi jsStorageClass guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
+hi jsOperator guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
+hi jsArrowFunction guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
+hi jsString guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
+hi jsComment guifg=#637777 ctermfg=243 gui=italic cterm=italic
+hi jsFuncCall guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
+hi jsNumber guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
+hi jsSpecial guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
+hi jsObjectProp guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
+hi jsOperatorKeyword guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
+hi jsBooleanFalse guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
+hi jsBooleanTrue guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
+hi jsRegexpString guifg=#5ca7e4 ctermfg=74 gui=NONE cterm=NONE
 hi jsConditional guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsFunction guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi jsReturn guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
@@ -126,10 +126,10 @@ hi shComment guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=italic cter
 hi NERDTreeDir guifg=#5f7e97 ctermfg=66 gui=NONE cterm=NONE
 hi NERDTreeOpenable guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi NERDTreeClosable guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
-hi NERDTreeHelp guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=italic cterm=italic
-hi NERDTreeUp guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi NERDTreeHelp guifg=#444444 ctermfg=238 gui=italic cterm=italic
+hi NERDTreeUp guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
 hi NERDTreeDirSlash guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
-hi gitcommitSummary guifg=#d6deeb ctermfg=253 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi gitcommitSummary guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
 hi IndentGuidesOdd guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
 hi IndentGuidesEven guibg=#777777 ctermbg=243 gui=NONE cterm=NONE
 
