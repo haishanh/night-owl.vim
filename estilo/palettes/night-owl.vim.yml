@@ -1,6 +1,8 @@
 white: '#d6deeb'
 bright: '#eeeeee'
 dark: '#011627'
+# still testing this color
+neardark: '#112630'
 # jsStorageClass
 # jsOperator
 # jsArrowFunction

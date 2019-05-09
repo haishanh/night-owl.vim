@@ -5,18 +5,28 @@
 Normal: 'white dark'
 LineNr: 'gray4 dark'
 # the screen line that the cursor is in when 'cursorline' is set
-CursorLine: '. dark'
-CursorLineNr: 'graya dark'
+CursorLine: '. neardark'
+CursorLineNr: 'graya neardark'
 ColorColumn: '. gray2'
 Cursor: ''
 Conceal: ''
 CursorIM: ''
 CursorColumn: ''
 Directory: ''
-DiffAdd: 'dark green'
-DiffChange: 'dark green2'
+
+# DiffAdd: 'dark green'
+# DiffChange: 'dark green2'
+# DiffDelete: 'dark red'
+# DiffText: 'dark green2'
+
+DiffAdd: 'dark green2'
+DiffChange: 'dark yellow'
 DiffDelete: 'dark red'
 DiffText: 'dark green2'
+
+diffAdded: 'green2 .'
+diffRemoved: 'red'
+
 ErrorMsg: ''
 VertSplit: 'gray7 .'
 Folded: 'gray7 dark'
