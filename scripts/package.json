@@ -1,0 +1,11 @@
+{
+  "name": "scripts",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "color": "^3.1.1",
+    "ejs": "^2.6.1",
+    "js-yaml": "^3.13.1"
+  }
+}
