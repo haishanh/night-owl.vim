@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="860" alt="Night Owl Vim colorscheme screenshot" src="https://user-images.githubusercontent.com/1166872/51114745-2a1d1280-1841-11e9-93a5-4ffee84dc7fa.png">
+  <img width="860" alt="Night Owl Vim colorscheme screenshot" src="https://user-images.githubusercontent.com/1166872/58341756-8f34e480-7e81-11e9-90d1-19775d6020bd.png">
 </p>
 
 A 24bit dark Vim colorscheme based on [sdras/night-owl-vscode-theme](https://github.com/sdras/night-owl-vscode-theme)
