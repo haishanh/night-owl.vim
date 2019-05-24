@@ -4,8 +4,11 @@
 # BASE UI
 Normal: 'white dark'
 LineNr: 'gray4 dark'
+# hi LineNr guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+
 # the screen line that the cursor is in when 'cursorline' is set
 CursorLine: '. neardark'
+# hi CursorLine guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
 CursorLineNr: 'graya neardark'
 ColorColumn: '. gray2'
 Cursor: ''
@@ -14,18 +17,13 @@ CursorIM: ''
 CursorColumn: ''
 Directory: ''
 
-# DiffAdd: 'dark green'
-# DiffChange: 'dark green2'
-# DiffDelete: 'dark red'
-# DiffText: 'dark green2'
-
-DiffAdd: 'dark green2'
+DiffAdd: 'dark green'
 DiffChange: 'dark yellow'
 DiffDelete: 'dark red'
-DiffText: 'dark green2'
+DiffText: 'dark green'
 
-diffAdded: 'green2 .'
-diffRemoved: 'red'
+diffAdded: 'green .'
+diffRemoved: 'red .'
 
 ErrorMsg: ''
 VertSplit: 'gray7 .'
@@ -198,3 +196,9 @@ gitcommitSummary: 'white .'
 # https://github.com/nathanaelkane/vim-indent-guides
 IndentGuidesOdd: '. gray4'
 IndentGuidesEven: '. gray7'
+
+##### GitGutter airblade/vim-gitgutter
+GitGutterAdd: 'green .'
+GitGutterChange: 'yellow .'
+GitGutterDelete: 'red .'
+GitGutterChangeDelete: 'yellow .'
