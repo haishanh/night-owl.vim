@@ -4,7 +4,7 @@
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
 " License: MIT
-" Last Change: 2019/05/24 23:25
+" Last Change: 2019/05/26 15:12
 " ===============================================================
 
 set background=dark
@@ -47,6 +47,8 @@ hi Exception guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi PreProc guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi Type guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi StorageClass guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
+hi htmlTag guifg=#777777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link htmlEndTag htmlTag
 hi Todo guifg=#777777 ctermfg=243 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
 hi jsStorageClass guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi jsOperator guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE

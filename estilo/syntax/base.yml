@@ -86,6 +86,8 @@ Typedef: '' # Type
 Special: ''
 SpecialChar: '' # Special
 Tag: '' # Special
+htmlTag: 'gray7'
+htmlEndTag: '@htmlTag'
 Delimiter: '' # Special
 SpecialComment: '' # Special
 Debug: '' # Special
