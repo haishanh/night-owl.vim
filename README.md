@@ -2,7 +2,7 @@
   <img width="860" alt="Night Owl Vim colorscheme screenshot" src="https://user-images.githubusercontent.com/1166872/58341756-8f34e480-7e81-11e9-90d1-19775d6020bd.png">
 </p>
 
-A 24bit dark Vim colorscheme based on [sdras/night-owl-vscode-theme](https://github.com/sdras/night-owl-vscode-theme)
+A true color Vim colorscheme based on [sdras/night-owl-vscode-theme](https://github.com/sdras/night-owl-vscode-theme)
 
 ## Usage
 
@@ -30,6 +30,23 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 syntax enable
 colorscheme night-owl
+```
+
+This theme is build with [jacoborus/estilo](https://github.com/jacoborus/estilo). If you want to customize this theme, you will need [Node.js](https://nodejs.org).
+
+```
+# clone the repo and cd to the dir
+# install deps
+# you can use npm too
+yarn
+
+# checkout file estilo/palettes/night-owl.vim.yml and estilo/syntax/base.yml
+# read https://github.com/jacoborus/estilo/blob/master/docs/color-palettes.md
+# and https://github.com/jacoborus/estilo/blob/master/docs/colorschemes.md
+# to understand how to use them
+
+# make changes and run
+yarn render
 ```
 
 ## Links
