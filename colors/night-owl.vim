@@ -4,7 +4,7 @@
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
 " License: MIT
-" Last Change: 2019/05/24 23:25
+" Last Change: 2019/05/27 23:34
 " ===============================================================
 
 set background=dark
@@ -28,6 +28,7 @@ hi diffRemoved guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi VertSplit guifg=#777777 ctermfg=243 gui=NONE cterm=NONE
 hi Folded guifg=#777777 ctermfg=243 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi FoldColumn guifg=#333333 ctermfg=236 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi SignColumn guifg=NONE ctermfg=NONE guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi IncSearch guifg=#eeeeee ctermfg=255 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
 hi NonText guifg=#444444 ctermfg=238 gui=NONE cterm=NONE
 hi PMenu guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE
@@ -47,6 +48,8 @@ hi Exception guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi PreProc guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi Type guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi StorageClass guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
+hi htmlTag guifg=#637777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link htmlEndTag htmlTag
 hi Todo guifg=#777777 ctermfg=243 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
 hi jsStorageClass guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi jsOperator guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE

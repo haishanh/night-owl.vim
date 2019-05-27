@@ -29,7 +29,7 @@ ErrorMsg: ''
 VertSplit: 'gray7 .'
 Folded: 'gray7 dark'
 FoldColumn: 'gray3 dark'
-SignColumn: ''
+SignColumn: '- dark'
 IncSearch: 'bright yellow'
 # MatchParen: 'dark graya'
 ModeMsg: ''
@@ -86,6 +86,8 @@ Typedef: '' # Type
 Special: ''
 SpecialChar: '' # Special
 Tag: '' # Special
+htmlTag: 'gray'
+htmlEndTag: '@htmlTag'
 Delimiter: '' # Special
 SpecialComment: '' # Special
 Debug: '' # Special
