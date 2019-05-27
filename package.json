@@ -1,0 +1,14 @@
+{
+  "name": "night-owl.vim",
+  "version": "0.0.0",
+  "scripts": {
+    "render": "estilo render"
+  },
+  "repository": "git@github.com:haishanh/night-owl.vim.git",
+  "author": "Haishan <haishanhan@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "estilo": "^1.3.3"
+  }
+}
