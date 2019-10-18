@@ -4,7 +4,7 @@
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
 " License: MIT
-" Last Change: 2019/06/11 21:09
+" Last Change: 2019/10/18 17:03
 " ===============================================================
 
 set background=dark
