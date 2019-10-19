@@ -32,7 +32,11 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 syntax enable
 colorscheme night-owl
+
+" To enable the lightline theme
+let g:lightline = { 'colorscheme': 'nightowl' }
 ```
+
 
 This theme is build with [jacoborus/estilo](https://github.com/jacoborus/estilo). If you want to customize this theme, you will need [Node.js](https://nodejs.org).
 
