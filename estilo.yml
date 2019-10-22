@@ -8,3 +8,8 @@ colorschemes:
   - name: night-owl
     background: 'dark'
     palette: night-owl.vim
+
+lightline:
+  - name: nightowl
+    palette: night-owl.vim
+    style: night-owl
