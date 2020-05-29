@@ -1,9 +1,14 @@
 <p align="center">
   <img width="860" alt="Night Owl syntax" src="https://user-images.githubusercontent.com/1166872/64192497-645d2200-cead-11e9-9c79-0b5fdc0955c9.png">
-  <small>Font in the screenshot is <a href="https://github.com/be5invis/Iosevka">Iosevka</a></small>
-
+</p>
+<p align="center">
+  <small>Font in the above screenshot is <a href="https://github.com/be5invis/Iosevka">Iosevka</a></small>
+</p>
+<p align="center">
   <img width="860" alt="Night Owl Vim colorscheme screenshot" src="https://user-images.githubusercontent.com/1166872/58341756-8f34e480-7e81-11e9-90d1-19775d6020bd.png">
-  <small>Font in the screenshot is <a href="https://github.com/belluzj/fantasque-sans">Fantasque Sans Mono</a></small>
+</p>
+<p align="center">
+  <small>Font in the above screenshot is <a href="https://github.com/belluzj/fantasque-sans">Fantasque Sans Mono</a></small>
 </p>
 
 A true color Vim colorscheme based on [sdras/night-owl-vscode-theme](https://github.com/sdras/night-owl-vscode-theme)
